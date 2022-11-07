@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>PrimeFaces Restaurant</title>
+    <link rel = "icon" href = "images/PrimeFaces-title-logo.png" type = "image/png" sizes = "16x16">
+    <!-- ana css dosyası -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- fontlar -->
+    <link rel = "stylesheet" href = "css/fonts.css">
+    <!-- simgeler -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <!-- diğer css dosyaları -->
+    <link rel = "stylesheet" href = "css/normalize.css">
+    <link rel = "stylesheet" href = "css/magnific-popup.css">
+    <link rel = "stylesheet" href = "css/slick.css">
+    <link rel = "stylesheet" href = "css/slick-theme.css">
+    <link rel = "stylesheet" href = "css/aos.css">
+  </head>
+  <body>
+
+    <!-- navbar başlangıcı -->
+    <nav class = "navbar">
+      <div class = "nav-brand-toggler">
+        <a href = "index.html" class = "navbar-brand">PrimeFaces <span>.</span> Restaurant</a>
+        <button type = "button" class = "navbar-toggler" id = "navbar-toggler">
+          <i class = "fas fa-bars"></i>
+        </button>
+      </div>
+
+      <div class = "navbar-collapse">
+        <ul class = "navbar-nav">
+          <li class = "nav-item">
+            <a href = "#home" class = "nav-link">Ana</a>
+          </li>
+          <li class = "nav-item">
+            <a href = "#about" class = "nav-link">Hakkında</a>
+          </li>
+          <li class = "nav-item">
+            <a href = "#chef" class = "nav-link">Şef</a>
+          </li>
+          <li class = "nav-item">
+            <a href = "#menu" class = "nav-link">Menü</a>
+          </li>
+          <li class = "nav-item">
+            <a href = "#contact" class = "nav-link">İletişim</a>
+          </li>
+        </ul>
+
+        <div class = "nav-info">
+          <span class = "call-info">
+            <i class = "fas fa-phone"></i>
+            +90 536 948 5232
+          </span>
+          <button type = "button" class = "btn btn-top">
+            Yer Ayırt
+          </button>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar sonu -->
+
+    <!-- ana başlıklar başlangıcı -->
+    <header class = "header" id = "home">
+      <div class = "container">
+        <h2>FastFood ve Ev yemekleri</h2>
+        <h1 class = "header-title">Lezzet konusunda 1. değiliz. Lezzetin TEK adresiyiz.</h1>
+      </div>
+    </header>
+    <!-- ana başlıklar sonu -->
+    
+    <!-- paragraflar başlangıcı -->
+    <section id = "about" class = "about container section-py">
+      <div class = "about-left" data-aos = "fade-right">
+        <div class = "title">
+          <h4>Hikayemiz...</h4>
+          <h2>1976'dan beri değişmeyen kalite...</h2>
+        </div>
+
+        <p class = "para-text">
+          1976 da başlayan lezzet hikayemiz nesilden nesile aktarılarak lezzetini korudu ve bugünlere geldi.
+        </p>
+        <p class = "para-text">Bir çok alanda kendini kanıtlamış olan PrimeFaces bünyemiz yemek zincirinin yanı sıra yazılım alanında da global bir şirket haline gelmiş ve bir çok popüler marka ile işbirliği içerisine girmiştir.</p>
+      </div>
+
+      <div class = "about-right" data-aos = "fade-left">
+        <img src = "images/primefaces.jfif" alt = "chef image">
+      </div>
+    </section>
+    <!-- paragraflar sonu -->
+
+    <!-- şefleri tanıttığım kısım başlangıcı -->
+    <section id = "chef" class = "chef section-py">
+      <div class = "container">
+
+        <div class = "title">
+          <h2>Üst Düzey Şeflerimiz</h2>
+        </div>
+
+
+        <div class = "chef-wrapper" data-aos = "fade-up">
+
+          <div class = "chef-item">
+            <div class = "chef-item-img">
+              <img src = "images/sef-yenentus.jfif" alt = "chef image">
+              <div class = "chef-overlay">
+                <div class = "chef-icons">
+                  <span>
+                    <i class = "fab fa-facebook fa-fw"></i>
+                  </span>
+                  <span>
+                    <i class = "fas fa-envelope fa-fw"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class = "chef-item-footer">
+              <h2>Şef Eren Hazine</h2>
+              <h3>Mutfak Sorumlusu</h3>
+            </div>
+          </div>
+
+          <div class = "chef-item">
+            <div class = "chef-item-img">
+              <img src = "images/sef-berkgur.jpg" alt = "chef image">
+              <div class = "chef-overlay">
+                <div class = "chef-icons">
+                  <span>
+                    <i class = "fab fa-facebook fa-fw"></i>
+                  </span>
+                  <span>
+                    <i class = "fas fa-envelope fa-fw"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class = "chef-item-footer">
+              <h2>Şef Berk Gür</h2>
+              <h3>Yönetici</h3>
+            </div>
+          </div>
+
+          <div class = "chef-item">
+            <div class = "chef-item-img">
+              <img src = "images/sef-ahmetgurgen.jpg" alt = "chef image">
+              <div class = "chef-overlay">
+                <div class = "chef-icons">
+                  <span>
+                    <i class = "fab fa-facebook fa-fw"></i>
+                  </span>
+                  <span>
+                    <i class = "fas fa-envelope fa-fw"></i>
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div class = "chef-item-footer">
+              <h2>Şef Ahmet Gürgen</h2>
+              <h3>Gurme</h3>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+    <!--- şefleri tanıttığım kısım sonu -->
+
+
+    <!-- yemekleri tanıttığım kısım başlangıcı -->
+    <section id = "menu" class = "menu section-py">
+
+      <div class = "title">
+        <h2>Üstün Kalite Ödüllü Yemeklerimiz</h2>
+      </div>
+
+
+      <div class = "menu-wrapper popup-gallery" data-aos = "fade-up">
+
+        <div class = "menu-item">
+          <a href = "images/koy-kahvaltısı.jpg">
+            <img src = "images/koy-kahvaltısı.jpg" alt = "food image">
+            <div class = "menu-overlay">
+              <div class = "menu-overlay-content">
+                <div>
+                  <h2>Köy Kahvaltısı</h2>
+                  <h2>60₺</h2>
+                </div>
+                <h5>Tat / Kalite / Uygunluk</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+
+
+        <div class = "menu-item">
+          <a href = "images/mercimek-corbasi.jpg">
+            <img src = "images/mercimek-corbasi.jpg" alt = "food image">
+            <div class = "menu-overlay">
+              <div class = "menu-overlay-content">
+                <div>
+                  <h2>Mercimek Çorbası</h2>
+                  <h2>15₺</h2>
+                </div>
+                <h5>Tat / Kalite / Uygunluk</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+
+
+        <div class = "menu-item">
+          <a href = "images/soslu-makarna.jpg">
+            <img src = "images/soslu-makarna.jpg" alt = "food image">
+            <div class = "menu-overlay">
+              <div class = "menu-overlay-content">
+                <div>
+                  <h2>Soslu Makarna</h2>
+                  <h2>20₺</h2>
+                </div>
+                <h5>Tat / Kalite / Uygunluk</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+
+
+        <div class = "menu-item">
+          <a href = "images/tavuk-sote.jpg">
+            <img src = "images/tavuk-sote.jpg" alt = "food image">
+            <div class = "menu-overlay">
+              <div class = "menu-overlay-content">
+                <div>
+                  <h2>Tavuk Sote</h2>
+                  <h2>40₺</h2>
+                </div>
+                <h5>Tat / Kalite / Uygunluk</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+
+
+        <div class = "menu-item">
+          <a href = "images/pasta.jpg">
+            <img src = "images/pasta.jpg" alt = "food image">
+            <div class = "menu-overlay">
+              <div class = "menu-overlay-content">
+                <div>
+                  <h2>Dilim Pasta</h2>
+                  <h2>13₺</h2>
+                </div>
+                <h5>Tat / Kalite / Uygunluk</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+
+
+        <div class = "menu-item">
+          <a href = "images/mevsim-salata.jpg">
+            <img src = "images/mevsim-salata.jpg" alt = "food image">
+            <div class = "menu-overlay">
+              <div class = "menu-overlay-content">
+                <div>
+                  <h2>Mevsim Salata</h2>
+                  <h2>10₺</h2>
+                </div>
+                <h5>Tat / Kalite / Uygunluk</h5>
+              </div>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </section>
+    <!-- yemekleri tanıttığım kısım sonu -->
+
+    <!-- müşteri yorumları başlangıcı -->
+    <section class = "testimonial section-py">
+
+      <div class = "title">
+        <h2>Müşteri Yorumları</h2>
+      </div>
+
+
+      <div class = "testimonial-slider">
+
+        <div class = "testimonial-item">
+          <img src = "images/yorumcu1.jpg" alt = "people image">
+          <p>Uzun zamandır bu kadar lezzetli yemek yememiştim. PrimeFaces ailesine teşekkür ederim. Tekrar görüşmek üzere :)</p>
+          <h3>Özberk Yaman</h3>
+        </div>
+
+
+        <div class = "testimonial-item">
+          <img src = "images/yorumcu2.jpg" alt = "people image">
+          <p>Kesinlikle tavsiye ediyorum. Garsonundan şefine gayet ilgililer. Fiyat olarak da gayet uygun. Mutlaka ziyaret etmelisiniz.</p>
+          <h3>Melike Ceyhan</h3>
+        </div>
+
+
+        <div class = "testimonial-item">
+          <img src = "images/yorumcu3.jpg" alt = "people image">
+          <p>Bu zamana kadar yediğim en lezzetli tavuk sote olabilir. E-spor maçlarından önce sipariş verilecekler listesinde ilk sıraya PrimeFaces'i yerleştiriyorum ;)</p>
+          <h3>Mustafa "codex" Beygo</h3>
+        </div>
+
+      </div>
+    </section>
+    <!-- müşteri yorumları sonu -->
+
+    <!-- iletişim kısmı başlangıcı -->
+    <section id = "contact" class = "contact section-py">
+      <div class = "contact-wrapper container">
+        <div class = "contact-map">
+          <iframe src="https://www.google.com/maps/place/Bilkent+CYBERPARK/@39.894577,32.7810074,13z/data=!4m9!1m2!2m1!1sB%C4%B0LKENT+CyberPark+,+CyberPlaza+,+1605.+Sk+Vak%C4%B1f+Binas%C4%B1+103B+Bilkent,%C3%87ankaya%2FAnkara!3m5!1s0x14d347acc4350fa9:0x22720cefb175c933!8m2!3d39.8697368!4d32.7450407!15sClZCxLBMS0VOVCBDeWJlclBhcmsgLCBDeWJlclBsYXphICwgMTYwNS4gU2sgVmFrxLFmIEJpbmFzxLEgMTAzQiBCaWxrZW50LMOHYW5rYXlhL0Fua2FyYSIDiAEBkgEgcmVzZWFyY2hfYW5kX3Byb2R1Y3RfZGV2ZWxvcG1lbnQ" width="100%" height="500px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+
+        <div class = "contact-info">
+
+          <div class = "title">
+            <h2>Bize Ulaşın</h2>
+          </div>
+
+          <form class = "contact-form">
+            <div class = "form-group">
+              <input type = "text" class = "form-control" placeholder="Ad Soyad">
+              <input type = "email" class = "form-control" placeholder="E posta">
+            </div>
+            <input type = "text" class = "form-control" placeholder="Konu">
+            <textarea rows = "5" class = "form-control" placeholder="Mesaj"></textarea>
+            <input type = "submit" class = "btn contact-btn" value = "Mesaj Gönder">
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- iletişim kısmı sonu -->
+
+    <!-- adres ve çalışma saatleri kısım başlangıcı -->
+    <footer class = "footer section-py">
+      <div class = "footer-wrapper container">
+        <div class = "footer-item">
+          <h3>Adres</h3>
+          <p class = "para-text">BİLKENT CyberPark , CyberPlaza , 1605. Sk Vakıf Binası 103B <br>Bilkent,Çankaya/Ankara</p>
+        </div>
+
+        <div class = "footer-item">
+          <h3>Rezervasyon</h3>
+          <p class = "para-text">+90 536 948 5232 | +90 312 2650507</p>
+          <p class = "para-text">berkgur33@gmail.com</p>
+        </div>
+
+        <div class = "footer-item">
+          <h3>Çalışma Saatleri</h3>
+          <p>Hafta içi</p>
+          <p class = "para-text">7:00 - 19:00</p>
+          <p>Hafta sonu</p>
+          <p class = "para-text">11:00 - 22:00</p>
+        </div>
+
+        <div class = "footer-item">
+          <div class = "footer-icons">
+            <a href = "https://www.facebook.com" target = "_blank">
+              <i class = "fab fa-facebook"></i>
+            </a>
+            <a href = "https://www.instagram.com" target = "_blank">
+              <i class = "fab fa-instagram"></i>
+            </a>
+            <a href = "https://www.twitter.com" target = "_blank">
+              <i class = "fab fa-twitter"></i>
+            </a>
+            <a href = "https://www.linkedin.com" target = "_blank">
+              <i class = "fab fa-linkedin"></i>
+            </a>
+          </div>
+          <p class = "para-text">Copyright 2021 &copy; PrimeFaces</p>
+          <p class = "para-text">Tüm hakları saklıdır.</p>
+        </div>
+      </div>
+    </footer>
+    <!--- adres ver çalışma saatleri kısım sonu -->
+
+
+    <!-- jQuery ve ana js dosyaları -->
+    <script src = "js/jquery-3.5.1.js"></script>
+    <script src = "js/jquery.magnific-popup.min.js"></script>
+    <script src = "js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src = "js/aos.js"></script>
+  </body>
+</html>
